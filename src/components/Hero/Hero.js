@@ -11,9 +11,10 @@ const Hero = (props) => (
         Here, I am <br/> Elias Emmanuel Atyusan
       </SectionTitle>
       <SectionText>
-        {/* <code> */}
-          I am a <code style={{color: 'white'}}>Software Developer</code>, with over 3 years of experience in Web Development. <code style={{color: 'white'}}>Experienced</code> with all stages of the development cycle for dynamic web projects.
-        {/* </code> */}
+        <code style={{color: 'white'}}>
+          Full-stack Software Developer
+        </code> <br/>
+        I Design, Develop, Manage and Maintain Web apps
       </SectionText>
       <Button onClick={() => window.location = 'https://google.com'}>Hire Me</Button>
     </LeftSection>
