@@ -5,7 +5,7 @@ import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
 const Hero = (props) => (
-  <Section>
+  <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
         Here, I am <br/> Elias Emmanuel Atyusan
@@ -16,7 +16,7 @@ const Hero = (props) => (
         </code> <br/>
         I Design, Develop, Manage and Maintain Web apps
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'}>Hire Me</Button>
+      <Button onClick={() => window.location = '#footer'}>Hire Me</Button>
     </LeftSection>
   </Section>
 );
